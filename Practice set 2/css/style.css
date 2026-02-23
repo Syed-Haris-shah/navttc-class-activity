@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1::first-letter{
+    color: greenyellow;
+    font-size: 50px;
+}
+
+@keyframes name {
+    
+    from{ opacity: 0;}
+    to{ opacity: 1;}
+    
+}
+
+h1 {
+    animation: name 5s ease-in-out;
+}
+
+p::first-line{
+    color: red;
+}
+
+/* style list items using nth child */
+
+.list li:nth-child(1){
+
+    color: red;
+
+}
+.list li:nth-child(2){
+
+    color: orange;
+
+}
+.list li:nth-child(3){
+
+    color: yellow;
+
+}
+
+.list li:nth-child(4){
+
+    color: green;
+
+}
+.list li:nth-child(5){
+
+    color: yellow;
+
+}
+
+/* add transitions with pseudu class(hover) */
+
+.list li:nth-child(1):hover{
+
+    background-color: red;
+    color: yellowgreen;
+    font-size: 25px;
+    transition:2s all ease-in-out;
+}
+.list li:nth-child(2):hover{
+
+    background-color: orangered;
+    color: orange;
+    font-size: 25px;
+    transition:2s all ease-in-out;
+}
+.list li:nth-child(3):hover{
+
+    background-color: yellow;
+    color: green;
+    font-size: 25px;
+    transition:2s all ease-in-out;
+}
+.list li:nth-child(4):hover{
+
+    background-color: greenyellow;
+    color: green;
+    font-size: 25px;
+    transition:2s all ease-in-out;
+}
+.list li:nth-child(5):hover{
+
+    background-color: yellow;
+    color: yellowgreen;
+    font-size: 25px;
+    transition:2s all ease-in-out;
+}
+
+/* add element before list item using psudo element(before) */
+
+.list li:nth-child(1):before{
+    content: "🍎";
+}
+.list li:nth-child(2):before{
+    content: "🍊";
+}
+.list li:nth-child(3):before{
+    content: "🥭";
+}
+.list li:nth-child(4):before{
+    content: "🍇";
+}
+.list li:nth-child(5):before{
+    content: "🍌";
+}
+
+/* add element after list items ssing psudo element(after) */
+
+.list li:nth-child(1)::after{
+    content: " 🔴 ";
+}
+.list li:nth-child(2)::after{
+    content: " 🔶 ";
+}
+.list li:nth-child(3)::after{
+    content: " 💛 ";
+}
+.list li:nth-child(4)::after{
+    content: " 🟩 ";
+}
+.list li:nth-child(5)::after{
+    content: " 💚 ";
+}
