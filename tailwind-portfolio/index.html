@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="text-white">
+    <!-- header section -->
+    <header
+      class="flex items-center justify-between text-white bg-[#011321] h-10 px-10 py-8"
+    >
+      <nav>
+        <h1 class="text-2xl font-bold uppercase">Syed Haris Shah</h1>
+      </nav>
+
+      <section>
+        <ul class="flex gap-5 uppercase font-semibold">
+          <li><a href="#About">About</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+      </section>
+    </header>
+
+    <!-- main section -->
+    <main class="bg-[#03263B]">
+      <section class="flex items-center justify-around px-10 py-[5rem] w-full">
+        <div class="w-5/12">
+          <h1 class="font-bold text-5xl uppercase mb-5">Syed Haris Shah</h1>
+          <p>
+            Building the future, one line of code at a time. 🚀 <br> ​As a <span class="text-xl font-semibold text-yellow-600">Web Developer </span>
+            Developer, I specialize in creating seamless, scalable, and
+            high-performance web applications using HTML, CSS and JavaScript. Whether it’s a custom dashboard or a full-scale
+            platform, I’m here to turn your ideas into digital reality. ​Looking
+            for a developer to bring your project to life? Let’s connect!
+          </p>
+          <button
+            class="bg-[#011321] font-semibold px-7 py-2 mt-5 uppercase hover:text-[#03263B] hover:bg-white hover:transition duration-500 ease-in-out rounded"
+          >
+            Contact Me
+          </button>
+
+          <div class="flex flex-col gap-3 absolute left-10 top-90">
+            <!-- <h2 class="text-2xl font-semibold uppercase pb-4">Social Links</h2> -->
+
+            <i class="fa-brands fa-github text-2xl hover:text-white"></i>
+            <i
+              class="fa-brands fa-linkedin text-2xl hover:text-blue-400 hover:transition duration-300 ease-in-out"
+            ></i>
+            <i
+              class="fa-brands fa-instagram text-2xl hover:text-red-400 hover:transition duration-300 ease-in-out"
+            ></i>
+            <i
+              class="fa-brands fa-facebook text-2xl hover:text-blue-400 hover:transition duration-300 ease-in-out"
+            ></i>
+          </div>
+        </div>
+
+        <div class="w-3/12">
+          <img src="./images/mypic.jpeg" alt="" class="w-full rounded-3xl" />
+        </div>
+      </section>
+
+      <section id="About">
+        <div class="py-[6rem] text-center uppercase font-bold text-2xl">
+          <h2>About ME</h2>
+        </div>
+        <section class="flex justify-around px-10 w-full gap-5">
+          <div class="w-4/12">
+            <img
+              src="./images/vecteezy_graduation-cap-tassel-and-diploma-symbolizing-academic_69633843.jpg"
+              alt=""
+              class="w-full h-90 object-fill rounded-3xl"
+            />
+          </div>
+          <div class="w-6/12">
+            <h1 class="font-bold text-5xl uppercase text-center">education</h1>
+            <div class="flex items-center justify-between py-20">
+              <div>
+                <h2 class="text-2xl font-bold pb-5 uppercase">BSCS</h2>
+                <ul>
+                  <li>Abasyn University Peshawar</li>
+                  <li>Complition Year: 2024</li>
+                  <li>CGPA: 3.28</li>
+                </ul>
+              </div>
+
+              <div class="border-x-2 px-5">
+                <h2 class="text-2xl font-bold pb-5 uppercase">FSC</h2>
+                <ul>
+                  <li>The City Collage Peshawar</li>
+                  <li>Complition Year: 2018</li>
+                  <li>Percentage: 68</li>
+                </ul>
+              </div>
+
+              <div>
+                <h2 class="text-2xl font-bold pb-5 uppercase">Matriculation</h2>
+                <ul>
+                  <li>Government No#2 School Peshawar</li>
+                  <li>Complition Year: 2016</li>
+                  <li>Percentage: 78</li>
+                </ul>
+              </div>
+            </div>
+            <!-- <button class="bg-gray-700 px-7 py-2 rounded">Contact Me</button> -->
+          </div>
+        </section>
+      </section>
+      <section>
+        <h2 class="text-3xl font-bold uppercase text-center py-[7rem]">
+          Skills
+        </h2>
+        <section class="flex justify-around items-center px-10">
+          <div class="w-5/12">
+            <div class="flex items-center gap-3">
+              <label class="font-bold" for="file">HTML5</label>
+              <progress
+                class="h-3 rounded"
+                id="file"
+                value="100"
+                max="100"
+              ></progress>
+            </div>
+            <div class="flex items-center gap-3 py-10">
+              <label class="font-bold" for="file">CSS3</label>
+              <progress
+                class="h-3 rounded"
+                id="file"
+                value="90"
+                max="100"
+              ></progress>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <label class="font-bold" for="file">Tailwind CSS</label>
+              <progress
+                class="h-3 rounded"
+                id="file"
+                value="80"
+                max="100"
+              ></progress>
+            </div>
+
+            <div class="flex items-center gap-3 py-10">
+              <label class="font-bold" for="file">JavaScript </label>
+              <progress
+                class="h-3 rounded"
+                id="file"
+                value="80"
+                max="100"
+              ></progress>
+            </div>
+          </div>
+
+          <div class="w-5/12">
+            <img src="./images/skills.jpeg" alt="" class="w-full rounded-3xl" />
+          </div>
+        </section>
+      </section>
+
+      <section id="project" class="py-[8rem]">
+        <h2 class="text-3xl text-center pb-10">Projects</h2>
+        <section class="flex items-center justify-around w-full px-20 gap-5">
+          <div class="w-4/12">
+            <img
+              src="./images/pro3.PNG"
+              alt=""
+              class="w-full h-90 object-fit rounded-3xl"
+            />
+            <h2 class="text-xl text-center pt-3 uppercase">Food Hut</h2>
+          </div>
+
+          <div class="w-4/12">
+            <img
+              src="./images/desktop-preview.jpg"
+              alt=""
+              class="w-full h-90 object-fit rounded-3xl"
+            />
+            <h2 class="text-xl pt-3 text-center uppercase">Flyo</h2>
+          </div>
+
+          <div class="w-4/12">
+            <img
+              src="./images/project1.jpeg"
+              alt=""
+              class="w-full h-90 object-fit rounded-3xl"
+            />
+            <h2 class="text-xl text-center uppercase">Web Page</h2>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <!-- footer section -->
+
+    <footer id="footer">
+      <section
+        class="flex items-center justify-between bg-[#011321] py-[4rem] px-20"
+      >
+        <div>
+          <ul>
+            <li>Address: Saeed Abad Peshawar</li>
+            <li>Email: haris.official222@gmail.com</li>
+            <li>Phone: +92 3159107302</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="text-2xl font-semibold uppercase pb-7">Social Links</h2>
+
+          <i class="fa-brands fa-github text-2xl hover:text-white"></i>
+          <i
+            class="fa-brands fa-linkedin text-2xl hover:text-blue-400 hover:transition duration-300 ease-in-out"
+          ></i>
+          <i
+            class="fa-brands fa-instagram text-2xl hover:text-red-400 hover:transition duration-300 ease-in-out"
+          ></i>
+          <i
+            class="fa-brands fa-facebook text-2xl hover:text-blue-400 hover:transition duration-300 ease-in-out"
+          ></i>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
